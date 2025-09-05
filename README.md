@@ -36,6 +36,10 @@ Set these parameters for the plugin `DiscordRichPresence`:
 
 No code edits are required; the plugin reads these at runtime.
 
+### 3) Initialize Plugin
+
+In `Map Properties`, in `Map Startup Reactions`, add at the top/first command as `Plugin: DiscordRichPresence - Initialize Rich Presence` command to see updates on discord.
+
 ## Usage
 
 The plugin auto-initializes a few seconds after load if configuration is valid. You can also control it via plugin commands:
@@ -108,3 +112,4 @@ RPM.Manager.Plugins.callCommand("DiscordRichPresence", "Disconnect Rich Presence
 ## License
 
 This plugin is provided as-is for personal and educational use.
+
